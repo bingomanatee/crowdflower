@@ -1,0 +1,10 @@
+.layout-header__title {
+  font-face: Roboto;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.layout-header__inner {
+  padding: 1.5rem;
+  padding-top: 1rem;
+}

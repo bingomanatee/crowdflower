@@ -1,0 +1,177 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+.menuPage {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  max-width: 1200px;
+}
+
+.menuPage p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+
+}
+
+.menuPage__seeMoreButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menuPage__subtitle {
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.menuPage__field {
+  border: 1px solid  rgba(150, 180, 180, 0.5);
+padding: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.menuPage__textPrompt {
+  font-size: 0.8rem;
+  text-align: center
+}
+.menuPage__dropzone {
+  width: 10rem;
+  border: 2px dashed rgb(102, 102, 102);
+  padding: 0.5rem;
+}
+
+.menuPage__finalButton-row {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.menuPage__buttons {
+  display: flex;
+}
+
+.menuPage__buttons-item {
+  flex-grow: 0;
+  padding-right: 2rem;
+}
+
+.menuPage__footer {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid  rgba(150, 180, 180, 0.5);
+  margin-bottom: 2rem;
+}
+
+.menuPage__footer-links {
+  flex-basis: 20rem;
+  flex-grow: 0
+}
+
+.menuPage__form {
+  flex-grow: 1
+}
+
+.menuPage__entry {
+  background-color: rgb(241, 245, 246);
+  padding: 1.5rem;
+}
+
+.menuPage__row {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.menuPage__button {
+  width: 16rem;
+  height: 12rem;
+  border: 1px solid rgba(150, 180, 180, 0.5);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.menuPage__button-shim {
+  width: 16rem;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.menuPage__button-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.menuPage__button-inner-panel{
+  flex-basis: 6rem;
+  background-color: rgb(241, 245, 246);
+  flex-grow: 5;
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+}
+
+.menuPage__button h2 {
+  -webkit-appearance: none;
+  flex-grow: 0;
+  color: rgb(100, 100, 100);
+  padding: 0.75rem;
+  padding-left: 1.25rem;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.MenuPage__icon-sprite--sentiment {
+  background: url('/images/tiles.png') no-repeat 0 0;
+  width: 213px;
+  height: 132px;
+}
+
+
+.MenuPage__icon-sprite--search-relevance {
+  background: url('/images/tiles.png') no-repeat -253px 0;
+  width: 205px;
+  height: 132px;
+}
+
+.MenuPage__icon-sprite--data-categorization {
+  background: url('/images/tiles.png') no-repeat -506px 0;
+  width: 204px;
+  height: 132px;
+}
+
+.MenuPage__icon-sprite--business {
+  background: url('/images/tiles.png') no-repeat -750px 0;
+  width: 213px;
+  height: 132px;
+}
+
+.MenuPage__icon-sprite--metadata {
+  background: url('/images/tiles.png') no-repeat 0 -211px;
+  width: 213px;
+  height: 124px;
+}
+
+.MenuPage__icon-sprite--image-data {
+  background: url('/images/tiles.png') no-repeat -253px -211px;
+  width: 205px;
+  height: 124px;
+}
+
+.MenuPage__icon-sprite--transcription {
+  background: url('/images/tiles.png') no-repeat -506px -211px;
+  width: 204px;
+  height: 124px;
+}
+
+.MenuPage__icon-sprite--deduplication {
+  background: url('images/tiles.png') no-repeat -750px -211px;
+  width: 213px;
+  height: 124px;
+}
